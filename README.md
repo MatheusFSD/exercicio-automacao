@@ -33,3 +33,15 @@ python3 src/my_robot_description/scripts/validar_inercia.py /tmp/my_robot.urdf
 O teste verifica as massas, os centros de massa e os tensores de inércia dos quatro links físicos. A massa total esperada é **7,5 kg**. A orientação da inércia das rodas acompanha a rotação dos cilindros.
 
 O RViz permite conferir o modelo e suas propriedades. A simulação dinâmica no Gazebo exige também colisões e configuração do simulador.
+
+## Resultado
+
+Capturas reais do projeto executado no RViz com ROS 2 Humble. A compilação, a leitura do URDF e a validação das inércias foram concluídas com sucesso.
+
+Robô com a geometria visual:
+
+![Robô aberto no RViz](my_robot_description/docs/robo-rviz.png)
+
+Representação das propriedades de massa e inércia:
+
+![Massa e inércia habilitadas no RViz](my_robot_description/docs/inercia-rviz.png)
